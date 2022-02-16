@@ -60,3 +60,14 @@ body {
 }
 
 @media only screen and (min-width: 600px) {}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        color: tomato
+    }
+}
