@@ -32,7 +32,7 @@ function User() {
   const [totalexpenses, settotalexpenses] = useState("");
   const [transactions, settransactions] = useState("");
 
-  const [status, setstatus] = useState("");
+  const [status, setstatus] = useState(true);
 
   const getTransactions = () => {
     const formdata = new FormData();

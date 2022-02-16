@@ -33,7 +33,7 @@ function Card() {
   const [accountnumber, setaccountnumber] = useState("");
   const [acctbalance, setacctbalance] = useState("");
 
-  const [status, setstatus] = useState("");
+  const [status, setstatus] = useState(true);
 
   const userdetail = (e) => {
     const formdata = new FormData();

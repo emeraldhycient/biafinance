@@ -24,7 +24,7 @@ function Settings() {
   const [address, setaddress] = useState("");
   const [dob, setdob] = useState("");
 
-  const [status, setstatus] = useState("");
+  const [status, setstatus] = useState(true);
 
   const updateDetails = (e) => {
     e.preventDefault();
